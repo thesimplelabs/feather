@@ -24,7 +24,8 @@ Feather is a free browser extension that makes conversations on ChatGPT and Clau
 
 ## 🆓 Free, by design
 
-Feather is free to use. No subscription or account is required. Optional donations help support continued development [Support me on Ko-fi ☕](https://ko-fi.com/simplelabs).
+Feather is free to use. No subscription or account is required.
+Optional donations help support continued development: [Support me on Ko-fi ☕](https://ko-fi.com/simplelabs).
 
 ## 🔐 Privacy first
 
