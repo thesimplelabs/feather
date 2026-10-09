@@ -15,16 +15,16 @@ Feather is a free browser extension that makes conversations on ChatGPT and Clau
 
 ## ✨ Features
 
-- **Chat Search** — Find messages and information in your conversations.
-- **Prompt Navigation** — Quickly find and navigate between prompts.
-- **Bookmarks** — Save important responses for later.
-- **Context Meter** — View an estimate of your conversation's context usage.
-- **Keyboard Shortcuts** — Navigate supported features more efficiently.
-- **Adaptive Themes** — Match the appearance of supported chat platforms.
+- **Chat Search**: Find messages and information in your conversations.
+- **Prompt Navigation**: Quickly find and navigate between prompts.
+- **Bookmarks**: Save important responses for later.
+- **Context Meter**: View an estimate of your conversation's context usage.
+- **Keyboard Shortcuts**: Navigate supported features more efficiently.
+- **Adaptive Themes**: Match the appearance of supported chat platforms.
 
 ## 🆓 Free, by design
 
-Feather is free to use. No subscription or account is required. Optional donations help support continued development.
+Feather is free to use. No subscription or account is required. Optional donations help support continued development [Support me on Ko-fi ☕](https://ko-fi.com/simplelabs).
 
 ## 🔐 Privacy first
 
@@ -40,13 +40,6 @@ The official website includes:
 - [Support & FAQ](https://thesimplelabs.github.io/feather/support.html)
 - [Privacy Policy](https://thesimplelabs.github.io/feather/privacy.html)
 
-## 🚀 Before publishing a release
-
-- [ ] Replace the placeholder Chrome Web Store URL in `index.html` with the actual listing URL.
-- [ ] Confirm the support links work.
-- [ ] Verify the privacy policy against the final extension code.
-- [ ] Add screenshots to `assets/screenshots/` if desired.
-- [ ] Test the website pages and navigation.
 
 ## 📁 Project structure
 
