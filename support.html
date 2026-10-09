@@ -1,15 +1,103 @@
+
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Feather support, troubleshooting and frequently asked questions."><title>Support & FAQ — Feather</title><link rel="icon" href="assets/feather-icon.png"><link rel="stylesheet" href="styles.css"></head>
-<body><header class="topbar"><a class="brand" href="index.html"><img src="assets/feather-icon.png" alt=""><span>Feather</span></a><nav><a href="index.html#features">Features</a><a class="active" href="support.html">Support</a><a href="privacy.html">Privacy</a></nav></header>
-<main class="document"><p class="kicker">HELP CENTRE</p><h1>How can we help?</h1><p class="lead">Quick answers to common Feather questions and issues.</p>
-<div class="notice"><strong>Before troubleshooting</strong><p>Make sure Feather is enabled, and that ChatGPT or Claude has finished loading the conversation.</p></div>
-<h2>Frequently asked questions</h2>
-<details open><summary>Why aren't messages, prompts, or the context meter loading?</summary><p>Refresh the ChatGPT or Claude conversation, let the page finish loading, then open Feather again. Very long conversations may take a few minutes to become available. If the issue continues, try refreshing once more and check whether the platform itself has finished loading.</p><p>Feather may need to initialize against the conversation currently loaded in the page. Availability can vary with conversation length and platform changes.</p></details>
-<details><summary>Why can't I find an older message or prompt?</summary><p>Feather can only search the conversation data it has successfully accessed. Wait for the page and Feather to finish initializing, then try again. If older messages are not available to Feather, the result may not appear.</p></details>
-<details><summary>Why does the context meter show an estimate?</summary><p>Context usage can depend on the selected model, system instructions, attachments, platform-side processing, and tokenization. Feather's display is an estimate and may not match the platform's internal count exactly. Model limits can change over time.</p></details>
-<details><summary>Why aren't my bookmarks showing?</summary><p>Bookmarks are stored in the browser's extension storage and associated with a conversation. Check that you're using the same browser profile and that Feather is still installed and enabled. Removing extension data or the extension itself may remove saved settings or bookmarks.</p></details>
-<details><summary>How do I use keyboard shortcuts?</summary><p>Open Feather's interface and check its shortcut information for the current bindings. Browser or operating-system shortcuts may take precedence, and shortcuts can vary based on browser settings.</p></details>
-<details><summary>Does Feather work with every AI model or chat page?</summary><p>Feather is designed for supported ChatGPT and Claude conversation pages. Site updates can change how conversations are structured, so a feature may temporarily behave differently after a platform update.</p></details>
-<details><summary>Does Feather send my conversations to Simple Labs?</summary><p>Feather is designed to process conversation content in your browser and does not use a Simple Labs server to process chats. See the <a href="privacy.html">privacy policy</a> for details about the data Feather stores locally.</p></details>
-<h2>Still having trouble?</h2><p>When reporting an issue, include your browser, whether you're using ChatGPT or Claude, the feature that failed, and the exact error message. Please don't include private conversations, passwords, or sensitive information.</p><p class="notice">Support contact is not configured yet. Add a public support email or link to your issue tracker here before publishing.</p>
-</main><footer><a class="brand small-brand" href="index.html"><img src="assets/feather-icon.png" alt=""><span>Feather</span></a><span>Made with care by Simple Labs.</span><div><a href="support.html">Support</a><a href="privacy.html">Privacy</a></div></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Feather support, troubleshooting and frequently asked questions.">
+  <title>Support & FAQ — Feather</title>
+  <link rel="icon" href="assets/feather-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="assets/feather-icon.png" alt="">
+      <span>Feather</span>
+    </a>
+    <nav>
+      <a href="index.html#features">Features</a>
+      <a class="active" href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="document">
+    <p class="kicker">HELP CENTRE</p>
+    <h1>How can we help?</h1>
+    <p class="lead">Quick answers to common Feather questions and issues.</p>
+
+    <div class="notice">
+      <strong>Before troubleshooting</strong>
+      <p>Make sure Feather is enabled, and that ChatGPT or Claude has finished loading the conversation.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <details open>
+      <summary>Why aren't messages, prompts, or the context meter loading?</summary>
+      <p>Refresh the ChatGPT or Claude conversation, let the page finish loading, then open Feather again. Very long conversations may take a few minutes to become available. If the issue continues, try refreshing once more and check whether the platform itself has finished loading.</p>
+      <p>Feather may need to initialize against the conversation currently loaded in the page. Availability can vary with conversation length and platform changes.</p>
+    </details>
+
+    <details>
+      <summary>Why can't I find an older message or prompt?</summary>
+      <p>Feather can only search the conversation data it has successfully accessed. Wait for the page and Feather to finish initializing, then try again. If older messages are not available to Feather, the result may not appear.</p>
+    </details>
+
+    <details>
+      <summary>Why does the context meter show an estimate?</summary>
+      <p>Context usage can depend on the selected model, system instructions, attachments, platform-side processing, and tokenization. Feather's display is an estimate and may not match the platform's internal count exactly. Model limits can change over time.</p>
+    </details>
+
+    <details>
+      <summary>Why aren't my bookmarks showing?</summary>
+      <p>Bookmarks are stored in the browser's extension storage and associated with a conversation. Check that you're using the same browser profile and that Feather is still installed and enabled. Removing extension data or the extension itself may remove saved settings or bookmarks.</p>
+    </details>
+
+    <details>
+      <summary>How do I use keyboard shortcuts?</summary>
+      <p>Open Feather's interface and check its shortcut information for the current bindings. Browser or operating-system shortcuts may take precedence, and shortcuts can vary based on browser settings.</p>
+    </details>
+
+    <details>
+      <summary>Does Feather work with every AI model or chat page?</summary>
+      <p>Feather is designed for supported ChatGPT and Claude conversation pages. Site updates can change how conversations are structured, so a feature may temporarily behave differently after a platform update.</p>
+    </details>
+
+    <details>
+      <summary>Does Feather send my conversations to Simple Labs?</summary>
+      <p>Feather is designed to process conversation content in your browser and does not use a Simple Labs server to process chats. See the <a href="privacy.html">privacy policy</a> for details about the data Feather stores locally.</p>
+    </details>
+
+    <h2>Still having trouble?</h2>
+    <p>When reporting an issue, include your browser, whether you're using ChatGPT or Claude, the feature that failed, and the exact error message. Please don't include private conversations, passwords, or sensitive information.</p>
+
+    <div class="notice">
+      <strong>We're here to help.</strong>
+      <p>Found a bug, need help, or have a suggestion? Open a GitHub issue and tell us what's happening. Please leave out private or sensitive information.</p>
+      <p>
+        <a
+          href="https://github.com/thesimplelabs/feather/issues"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button"
+        >Contact Support ↗</a>
+      </p>
+      <p><small>You'll be taken to GitHub to report your issue.</small></p>
+    </div>
+  </main>
+
+  <footer>
+    <a class="brand small-brand" href="index.html">
+      <img src="assets/feather-icon.png" alt="">
+      <span>Feather</span>
+    </a>
+    <span>Made with care by Simple Labs.</span>
+    <div>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </footer>
+</body>
+</html>
